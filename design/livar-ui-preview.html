@@ -1,0 +1,122 @@
+<!doctype html>
+<html lang="en" dir="ltr" data-theme="dark">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>LiVAR UI Preview</title>
+  <link rel="stylesheet" href="livar-ui-kit.css">
+  <style>
+    body{padding-bottom:100px}
+    .demo-grid{display:grid;grid-template-columns:1.15fr .85fr;gap:12px}
+    .stack{display:flex;flex-direction:column;gap:12px}
+    @media (max-width:899px){.demo-grid{grid-template-columns:1fr}}
+  </style>
+</head>
+<body>
+  <header class="topbar">
+    <div class="topbar-inner">
+      <div class="brand"><span class="brand-dot"></span><span>LiVAR CRM</span></div>
+      <nav class="nav-desktop">
+        <a class="active" href="#">Dashboard</a>
+        <a href="#">Customers</a>
+        <a href="#">Deals</a>
+        <a href="#">Queue</a>
+        <span class="nav-sep"></span>
+        <a href="#">Reports</a>
+      </nav>
+      <div class="userpill"><span class="avatar"></span><strong>Mehdi</strong></div>
+    </div>
+  </header>
+
+  <main class="app-container">
+    <div class="grid" style="margin-bottom:12px">
+      <div class="notice">Sample visual language extracted from the project</div>
+    </div>
+
+    <section class="kpi-grid" style="margin-bottom:12px">
+      <div class="kpi-tile"><div class="kpi-icon">★</div><div class="kpi-copy"><div class="kpi-label">Score</div><div class="kpi-value">89</div></div></div>
+      <div class="kpi-tile"><div class="kpi-icon">✓</div><div class="kpi-copy"><div class="kpi-label">WON</div><div class="kpi-value">14</div></div></div>
+      <div class="kpi-tile"><div class="kpi-icon">×</div><div class="kpi-copy"><div class="kpi-label">LOST</div><div class="kpi-value">7</div></div></div>
+      <div class="kpi-tile"><div class="kpi-icon">⌛</div><div class="kpi-copy"><div class="kpi-label">HOLD</div><div class="kpi-value">5</div></div></div>
+      <div class="kpi-tile"><div class="kpi-icon">👥</div><div class="kpi-copy"><div class="kpi-label">Customers</div><div class="kpi-value">128</div></div></div>
+      <div class="kpi-tile"><div class="kpi-icon">⟳</div><div class="kpi-copy"><div class="kpi-label">Queue</div><div class="kpi-value">11</div></div></div>
+    </section>
+
+    <div class="demo-grid">
+      <div class="stack">
+        <section class="card">
+          <div class="card-h">
+            <h2>Sample Form</h2>
+            <div class="tabs">
+              <span class="tab active">Active</span>
+              <span class="tab">Archived</span>
+            </div>
+          </div>
+          <div class="card-b">
+            <div class="grid-2">
+              <div class="field"><label>Name</label><input placeholder="Customer name"></div>
+              <div class="field"><label>Phone</label><input placeholder="+971 ..."></div>
+            </div>
+            <div class="field"><label>Description</label><textarea placeholder="Sample text"></textarea></div>
+            <div class="row">
+              <button class="btn">Save</button>
+              <button class="btn secondary">Cancel</button>
+            </div>
+          </div>
+        </section>
+
+        <section class="card">
+          <div class="card-h"><h2>Sample Table</h2><span class="badge orange">Brand</span></div>
+          <div class="card-b table-wrap">
+            <table class="table">
+              <thead>
+                <tr><th>Customer</th><th>Stage</th><th>Last Follow-up</th><th>Value</th></tr>
+              </thead>
+              <tbody>
+                <tr><td>Ali Rezaei</td><td><span class="badge green">WON</span></td><td class="dt">2026-03-08</td><td>420,000 AED</td></tr>
+                <tr><td>Sara N.</td><td><span class="badge blue">OPEN</span></td><td class="dt">2026-03-10</td><td>155,000 AED</td></tr>
+                <tr><td>Hamed K.</td><td><span class="badge red">LOST</span></td><td class="dt">2026-03-04</td><td>80,000 AED</td></tr>
+              </tbody>
+            </table>
+          </div>
+        </section>
+      </div>
+
+      <div class="stack">
+        <section class="card">
+          <div class="card-h"><h2>Badges</h2></div>
+          <div class="card-b">
+            <div class="tabs">
+              <span class="badge">Default</span>
+              <span class="badge orange">Orange</span>
+              <span class="badge green">Success</span>
+              <span class="badge red">Danger</span>
+              <span class="badge blue">Info</span>
+              <span class="badge dark">Admin</span>
+            </div>
+          </div>
+        </section>
+
+        <section class="card">
+          <div class="card-h"><h2>Mobile</h2></div>
+          <div class="card-b">
+            <div class="mobile-shell">
+              <div class="m-kpis">
+                <div class="m-kpi"><div class="m-kpi-ic">★</div><div><div class="m-kpi-l">Score</div><div class="m-kpi-v">89</div></div></div>
+                <div class="m-kpi"><div class="m-kpi-ic">✓</div><div><div class="m-kpi-l">WON</div><div class="m-kpi-v">14</div></div></div>
+              </div>
+              <div class="m-list">
+                <div class="m-item">
+                  <div class="m-row"><div class="m-h">Follow up today</div><div class="m-meta">11:30</div></div>
+                  <div class="m-p">A mobile card with condensed information and a clear CTA.</div>
+                  <div class="m-actions"><button class="btn btn-sm">Open</button><button class="btn secondary btn-sm">Later</button></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+    </div>
+  </main>
+</body>
+</html>

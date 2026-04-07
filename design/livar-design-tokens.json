@@ -1,0 +1,91 @@
+{
+  "meta": {
+    "name": "LiVAR UI Tokens",
+    "source": "extracted from uploaded PHP/CSS codebase",
+    "version": "1.0"
+  },
+  "color": {
+    "brand": { "value": "#FF5500" },
+    "text": { "light": "#111111", "dark": "rgba(255,255,255,.92)" },
+    "muted": { "light": "#666666", "dark": "rgba(255,255,255,.66)" },
+    "label": { "light": "#222222", "dark": "rgba(255,255,255,.84)" },
+    "bg": { "light": "#ffffff", "dark": "#050506" },
+    "surface": {
+      "light": "#ffffff",
+      "lightAlt": "#fbfbfb",
+      "lightSoft": "#f6f6f6",
+      "dark": "rgba(255,255,255,.06)",
+      "darkAlt": "rgba(255,255,255,.04)",
+      "darkSoft": "rgba(255,255,255,.03)"
+    },
+    "border": { "light": "#e9e9e9", "dark": "rgba(255,255,255,.14)" },
+    "success": { "value": "#00c878" },
+    "danger": { "value": "#ff5a5a" },
+    "info": { "value": "#468cff" },
+    "focusRing": { "value": "rgba(255,85,0,.18)" }
+  },
+  "radius": {
+    "card": { "value": "18px" },
+    "input": { "value": "14px" },
+    "button": { "value": "14px" },
+    "table": { "value": "16px" },
+    "pill": { "value": "999px" }
+  },
+  "shadow": {
+    "sm": {
+      "light": "0 6px 18px rgba(0,0,0,.06)",
+      "dark": "0 10px 28px rgba(0,0,0,.55)"
+    },
+    "md": {
+      "light": "0 10px 30px rgba(0,0,0,.08)",
+      "dark": "0 14px 44px rgba(0,0,0,.62)"
+    },
+    "lg": {
+      "light": "0 16px 46px rgba(0,0,0,.10)",
+      "dark": "0 18px 56px rgba(0,0,0,.70)"
+    }
+  },
+  "spacing": {
+    "4": "4px",
+    "6": "6px",
+    "8": "8px",
+    "10": "10px",
+    "12": "12px",
+    "14": "14px",
+    "16": "16px",
+    "18": "18px",
+    "20": "20px",
+    "24": "24px"
+  },
+  "typography": {
+    "fontFamily": "ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial",
+    "lineHeight": "1.5",
+    "title": { "h1": "18px", "h2": "16px" },
+    "body": { "default": "15px", "small": "13px", "xs": "12px" },
+    "weight": { "regular": 400, "bold": 700, "black": 900 }
+  },
+  "sizing": {
+    "buttonHeight": "44px",
+    "buttonHeightSmall": "40px",
+    "avatar": "28px",
+    "kpiIcon": "36px",
+    "mobileKpiIcon": "38px",
+    "container": "1100px"
+  },
+  "motion": {
+    "duration": "180ms",
+    "easing": "cubic-bezier(.2,.8,.2,1)"
+  },
+  "breakpoints": {
+    "mobileMax": "899px",
+    "smallMax": "520px"
+  },
+  "patterns": {
+    "navigation": "sticky translucent topbar with blur",
+    "cards": "rounded, light border, soft elevation, micro-lift on hover",
+    "buttons": "solid orange primary with black text; white/transparent secondary variants",
+    "status": "pill badges with tinted backgrounds",
+    "dashboard": "dense KPI grid + charts/cards",
+    "mobile": "card stack, sticky bottom actions, compact pills and accordions"
+  }
+}

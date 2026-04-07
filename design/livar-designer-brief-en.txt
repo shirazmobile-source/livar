@@ -1,0 +1,19 @@
+Design a CRM user interface with exactly this visual DNA:
+
+- Minimal, professional, clean, fast, and free of clutter
+- Overall structure should be card-based
+- The only brand color should be `#FF5500`
+- Main palette: white, black, and soft grays
+- Generous but controlled radius: `14px` to `18px`
+- Shadows should be soft and shallow
+- Sticky topbar with blur and a modern iOS/macOS-like feel
+- Navigation items should use a pill shape
+- Primary button should be orange with black text and a very bold font weight
+- Forms should be simple, clear, rounded, and use a subtle orange focus ring
+- Badges and tabs should be pill-shaped with a very faint tint
+- Tables should be clean, rounded, with neutral headers and very subtle hover states
+- Desktop: multi-column KPI tiles, analytical cards, and modern tables
+- Mobile: card stack, accordion, two-column KPI grid, and a sticky bottom action bar
+- Dark mode: near-black background with semi-transparent panels and low-contrast borders
+- Avoid heavy gradients, multiple colors, neon, heavy shadows, and decorative effects
+- The result should convey a luxurious, fast, precise, and trustworthy CRM feel

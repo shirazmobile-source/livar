@@ -1,0 +1,39 @@
+{
+    "revision": "20260329233812",
+    "default_mode": "dark",
+    "shared": {
+        "brand": "#FF5500",
+        "success": "#00c878",
+        "danger": "#ff5a5a",
+        "info": "#468cff",
+        "radius": "18px",
+        "radius_sm": "14px",
+        "btn_h": "44px",
+        "container": "1100px"
+    },
+    "light": {
+        "bg": "#ffffff",
+        "text": "#111111",
+        "muted": "#666666",
+        "label": "#222222",
+        "surface": "#ffffff",
+        "surface_2": "#fbfbfb",
+        "surface_3": "#f6f6f6",
+        "border": "#e9e9e9"
+    },
+    "dark": {
+        "bg": "#050506",
+        "text": "rgba(255,255,255,.92)",
+        "muted": "rgba(255,255,255,.66)",
+        "label": "rgba(255,255,255,.84)",
+        "surface": "rgba(255,255,255,.06)",
+        "surface_2": "rgba(255,255,255,.04)",
+        "surface_3": "rgba(255,255,255,.03)",
+        "border": "rgba(255,255,255,.14)"
+    },
+    "topbar": {
+        "light": "rgba(255,255,255,.86)",
+        "dark": "rgba(0,0,0,.35)"
+    },
+    "custom_css": ""
+}

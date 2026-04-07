@@ -1,0 +1,5 @@
+LCA v1.11.40
+- Fix valid core update package structure for UpdateManager.
+- Keep sales/create save-submit fix from v1.11.39.
+- Includes required package roots: index.php, public/, src/.
+- No controller, model, database, or route changes.

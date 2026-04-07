@@ -1,0 +1,1 @@
+-- No database changes required for this UX update.
